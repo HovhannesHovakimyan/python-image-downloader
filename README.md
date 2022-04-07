@@ -2,14 +2,16 @@
 Python script which downloads images from given URL
 
 # Initial setup:
+- You need to have Python and PIP installed
+- `pip3 install --upgrade pip`
 - `pip3 install -r requirements.txt`
 - 
     ```
-    python download_images.py --help
+    python3 img-down.py --help
     ```
     **Output:**
     ```
-    usage: download_images.py [-h] [-p PATH] url
+    usage: img-down.py [-h] [-p PATH] url
 
     This script downloads all images from a web page
 
@@ -21,8 +23,8 @@ Python script which downloads images from given URL
     -p PATH, --path PATH  The Directory you want to store your images, default
                             is the domain of URL passed
     ```
-- Example command to download all images from https://jzechner.com
+- Example command to download all images from https://ajapnyakmc.com
     ```
-    python download_images.py https://jzechner.com
+    python3 img-down.py https://ajapnyakmc.com
     ```
-    A new folder `jzechner.com` will be created automatically that contains all the images of that web page.
+    A new folder `ajapnyakmc.com` will be created automatically that contains all the images of that web page.
