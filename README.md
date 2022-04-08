@@ -4,6 +4,7 @@ Python script which downloads images from given URL
 # Initial setup:
 - You need to have Python and PIP installed
 - `pip3 install --upgrade pip`
+- `Navigate to this program folder`
 - `pip3 install -r requirements.txt`
 - 
     ```
